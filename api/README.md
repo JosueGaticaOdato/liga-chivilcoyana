@@ -172,10 +172,9 @@ Todas las respuestas de la API mantienen una estructura consistente:
   "data": [
     {
       "id": 1,
-      "name": "Deportivo Colón",
-      "slug": "deportivo-colon",
-      "founded_year": 1930,
-      "stadium": "Estadio Juan Lucio Zanichelli"
+      "nombre": "Colón",
+      "slug": "colon",
+      ...
     }
   ],
   "meta": {
