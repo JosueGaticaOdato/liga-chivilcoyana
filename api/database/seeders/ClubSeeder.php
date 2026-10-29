@@ -17,7 +17,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Atletico Independiente',
         'nombre' => 'Independiente',
-        'escudo' => 'Independiente.png',
+        'escudo' => 'Independiente.webp',
         'fecha_fundacion' => '1930-04-05',
         'estadio_id' => 1,
         'descripcion' => 'Descripcion',
@@ -25,7 +25,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Social, Cultural y Deportivo Gimnasia y Esgrima',
         'nombre' => 'Gimnasia',
-        'escudo' => 'Gimnasia.png',
+        'escudo' => 'Gimnasia.webp',
         'fecha_fundacion' => '1916-04-18',
         'estadio_id' => 2,
         'descripcion' => 'Descripcion',
@@ -33,14 +33,14 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Social y Deportivo 22 de Octubre',
         'nombre' => '22 de Octubre',
-        'escudo' => '22Octubre.png',
+        'escudo' => '22Octubre.webp',
         'fecha_fundacion' => '1900-01-01',
         'descripcion' => 'Descripcion',
       ],
       [
         'nombre_institucional' => 'Club Deportivo Alsina',
         'nombre' => 'Alsina',
-        'escudo' => 'Alsina.png',
+        'escudo' => 'Alsina.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 4,
         'descripcion' => 'Descripcion',
@@ -48,7 +48,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Social y Deportivo Ceramica Argentina',
         'nombre' => 'Ceramica',
-        'escudo' => 'Ceramica.png',
+        'escudo' => 'Ceramica.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 5,
         'descripcion' => 'Descripcion',
@@ -56,7 +56,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Atletico Ciclon',
         'nombre' => 'Ciclon',
-        'escudo' => 'Ciclon.png',
+        'escudo' => 'Ciclon.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 6,
         'descripcion' => 'Descripcion',
@@ -64,7 +64,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Social y Deportivo Colon',
         'nombre' => 'Colon',
-        'escudo' => 'Colon.png',
+        'escudo' => 'Colon.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 7,
         'descripcion' => 'Descripcion',
@@ -72,7 +72,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Social y Deportivo Huracan',
         'nombre' => 'Huracan',
-        'escudo' => 'Huracan.png',
+        'escudo' => 'Huracan.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 8,
         'descripcion' => 'Descripcion',
@@ -80,7 +80,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Moquehua',
         'nombre' => 'Moquehua',
-        'escudo' => 'Moquehua.png',
+        'escudo' => 'Moquehua.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 9,
         'descripcion' => 'Descripcion',
@@ -88,7 +88,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Once Tigres',
         'nombre' => 'Once Tigres',
-        'escudo' => 'OnceTigres.png',
+        'escudo' => 'OnceTigres.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 10,
         'descripcion' => 'Descripcion',
@@ -96,7 +96,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Deportivo Pellegrini',
         'nombre' => 'Pellegrini',
-        'escudo' => 'Pellegrini.png',
+        'escudo' => 'Pellegrini.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 11,
         'descripcion' => 'Descripcion',
@@ -104,7 +104,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club San Lorenzo Alberti',
         'nombre' => 'San Lorenzo',
-        'escudo' => 'SanLorenzo.png',
+        'escudo' => 'SanLorenzo.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 12,
         'descripcion' => 'Descripcion',
@@ -112,7 +112,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Deportivo, Social y Cultural Florencio Varela',
         'nombre' => 'Varela',
-        'escudo' => 'Varela.png',
+        'escudo' => 'Varela.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 13,
         'descripcion' => 'Descripcion',
@@ -120,7 +120,7 @@ class ClubSeeder extends Seeder
       [
         'nombre_institucional' => 'Club Atletico Villarino',
         'nombre' => 'Villarino',
-        'escudo' => 'Villarino.png',
+        'escudo' => 'Villarino.webp',
         'fecha_fundacion' => '1900-01-01',
         'estadio_id' => 14,
         'descripcion' => 'Descripcion',
