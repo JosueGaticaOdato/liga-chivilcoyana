@@ -1,9 +1,21 @@
+/**
+ * @module components/layout/Header
+ * Componente de diseño (layout) para el encabezado de página global.
+ * Contiene los enlaces de navegacion principales y el logo de la liga
+ */
+
 "use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import NavLink from "./NavLink";
 
+/**
+ * Renderiza el encabezado de página principal de la aplicación.
+ * Es un componente de cliente que maneja la estructura superior del sitio web.
+ *
+ * @returns Elemento JSX que representa la estructura del header.
+ */
 export default function header() {
   const pathname = usePathname();
 

@@ -1,7 +1,19 @@
+/**
+ * @module components/layout/Footer
+ * Componente de diseño (layout) para el pie de página global.
+ * Contiene la identidad visual, enlaces de navegación y datos de contacto de la Liga.
+ */
+
 "use client";
 
 import Link from "next/link";
 
+/**
+ * Renderiza el pie de página principal de la aplicación.
+ * Es un componente de cliente que maneja la estructura inferior del sitio web.
+ *
+ * @returns Elemento JSX que representa la estructura del footer.
+ */
 export default function footer() {
   return (
     <footer className="grid grid-cols-1 gap-12 bg-(--color-footer) px-6 py-8 pb-4 text-center font-(--fuente-secundaria) text-(--color-letras-secundario) lg:grid-cols-[3fr_1fr_1fr] lg:p-12 lg:text-left">
