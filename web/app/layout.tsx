@@ -43,7 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="es">
       <body>
         <Header />
-        <main>{children}</main>
+        <main className="bg-(--color-bg-muted) pt-28">{children}</main>
         <Footer />
       </body>
     </html>
