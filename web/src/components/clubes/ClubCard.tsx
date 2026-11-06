@@ -23,7 +23,7 @@ type ClubCardProps = {
  */
 export default function ClubCard({ club }: ClubCardProps) {
   return (
-    <a href="#" className="group">
+    <a href={`/clubes/${club.slug}`} className="group">
       <article className="flex h-24 items-center gap-4 overflow-hidden rounded-lg border-b-[5px] border-l-[6px] border-b-transparent border-l-(--color-primario) bg-(--color-blanco) shadow-(--sombra-ultra-suave) transition-all duration-300 ease-in-out md:h-28 md:border-l-8 lg:hover:-translate-y-1.25 lg:hover:border-b-(--color-primario) lg:hover:shadow-(--sombra-suave)">
         <figure className="h-18 w-22 shrink-0 transition-transform duration-300 ease-in-out md:h-24 md:w-32 lg:group-hover:scale-125">
           {club.escudo ? (
