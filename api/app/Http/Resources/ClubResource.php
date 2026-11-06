@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Storage;
 
 class ClubResource extends JsonResource
 {
+
+  // Representacion resumida del club
   public function toArray(Request $request): array
   {
     return [
