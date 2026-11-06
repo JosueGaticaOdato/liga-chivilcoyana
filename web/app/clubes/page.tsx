@@ -5,6 +5,7 @@
  */
 
 import ClubCard from "@/src/components/clubes/ClubCard";
+import HeaderPage from "@/src/components/layout/HeaderPages";
 import { getClubes } from "@/src/services/clubService";
 import type { Metadata } from "next";
 
@@ -27,11 +28,14 @@ export default async function ClubesPage() {
     const clubes = await getClubes();
 
     return (
-      <section className="grid grid-cols-1 gap-5 px-4 pb-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
-        {clubes.map(function (club) {
-          return <ClubCard key={club.id} club={club} />;
-        })}
-      </section>
+      <>
+        <HeaderPage title="Clubes" />
+        <section className="grid grid-cols-1 gap-5 px-4 pb-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+          {clubes.map(function (club) {
+            return <ClubCard key={club.id} club={club} />;
+          })}
+        </section>
+      </>
     );
   } catch {
     return <div>h1</div>;
