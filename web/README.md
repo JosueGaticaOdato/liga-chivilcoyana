@@ -196,3 +196,5 @@ export interface Club {
     - `feat(web): agrega tabla de posiciones`
     - `fix(web): corrige renderizado de tarjetas de partidos`
     - `style(web): ajusta diseño responsive del menú principal`
+- **Uso de TSDoc**:
+  - Para una correcta documentacion, se utilizan comentarios tipados y estructurados en el codigo.
