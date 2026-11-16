@@ -7,7 +7,7 @@
 import { Torneo } from "@/src/types/torneo";
 
 /**
- * Propiedades esperadas por el componente TornebCard
+ * Propiedades esperadas por el componente TorneoCard
  */
 type TorneoCardProps = {
   torneo: Torneo;
@@ -20,11 +20,11 @@ type TorneoCardProps = {
  * @param props.club - Objeto con la informacion del torneo a renderizar
  * @returns Elemento TSX que representa la tarjeta del torneo
  */
-export default function ClubCard({ torneo }: TorneoCardProps) {
+export default function TorneoCard({ torneo }: TorneoCardProps) {
   return (
     <li>
       <a
-        href="{{ route('torneos.torneo', $torneo.slug) }}"
+        href={`/torneos/${torneo.slug}`}
         className="relative flex flex-col gap-4 rounded-xl border-b-4 border-l-8 border-b-transparent border-l-(--color-primario) bg-(--color-blanco) p-6 shadow-(--sombra-ultra-suave) transition-all duration-300 lg:hover:-translate-y-1 lg:hover:border-b-(--color-primario) lg:hover:shadow-(--sombra-suave)"
       >
         <article className="flex w-full items-start gap-4">
@@ -39,15 +39,7 @@ export default function ClubCard({ torneo }: TorneoCardProps) {
           <section className="flex flex-col items-start">
             {/* ESTADO */}
             <span
-              className="   mb-1  inline-flex rounded-full  px-2.5 py-0.5
-                                    text-xs
-                                    font-semibold
-
-                                    {{ $torneo.estado === 'en_curso'
-                                        ? 'bg-(--color-success) text-(--color-blanco)'
-                                        : 'bg-(--color-error) text-(--color-blanco)'
-                                    }}
-                                "
+              className={`mb-1 inline-flex rounded-full px-2.5 py-0.5 text-xs font-semibold ${torneo.estado === "en_curso" ? "bg-(--color-success) text-(--color-blanco)" : "bg-(--color-error) text-(--color-blanco)"} `}
             >
               {torneo.estado == "en_curso" ? "En Curso" : "Finalizado"}
             </span>

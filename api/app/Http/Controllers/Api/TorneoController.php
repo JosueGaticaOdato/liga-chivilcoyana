@@ -11,7 +11,11 @@ class TorneoController
 
   public function index()
   {
-    $torneos = Torneo::all();
+    // Obtener todos los torneos con sus relaciones 'temporada' y 'categoria'
+    $torneos = Torneo::with([
+      'temporada',
+      'categoria',
+    ])->get();
 
     return TorneoResource::collection($torneos)
       ->response()
