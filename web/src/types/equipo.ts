@@ -8,7 +8,7 @@ import { Categoria } from "./categoria";
 import { Club } from "./club";
 
 /**
- * Representa un equipo resumido dentro del sistema.
+ * Representa un equipo dentro del sistema.
  */
 export interface Equipo {
   id: number;
