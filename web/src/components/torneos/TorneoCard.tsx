@@ -5,6 +5,7 @@
  */
 
 import { Torneo } from "@/src/types/torneo";
+import { Trophy } from "lucide-react";
 
 /**
  * Propiedades esperadas por el componente TorneoCard
@@ -29,11 +30,9 @@ export default function TorneoCard({ torneo }: TorneoCardProps) {
       >
         <article className="flex w-full items-start gap-4">
           {/* ICONO */}
-          {/* <span className=" flex   h-16   w-16  shrink-0 items-center  justify-center rounded-full  bg-linear-to-br  from-(--color-degradado-1)   to-(--color-degradado-2) text-(--color-blanco)">
-            <ion-icon
-              name="trophy-outline"
-              className="text-[2rem]"></ion-icon>
-          </span> */}
+          <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-linear-to-br from-(--color-degradado-1) to-(--color-degradado-2) text-(--color-blanco)">
+            <Trophy className="size-8" />
+          </span>
 
           {/* DETALLES */}
           <section className="flex flex-col items-start">
